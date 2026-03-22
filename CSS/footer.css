@@ -1,0 +1,105 @@
+.gush-footer {
+  background-color: #FFFFFF;
+  padding: 100px 0 60px 0;
+  font-family: 'Inter', sans-serif;
+  /* CHANGE THIS LINE TO THE FIGMA BLACK */
+  color: #1B1C1D;
+}
+
+.footer-container {
+  max-width: 1600px; /* As per Figma width fill */
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 80px;
+  /* CHANGE THIS LINE TO THE FIGMA BORDER COLOR */
+  border-bottom: 1px solid #CFD1D4; 
+  padding-bottom: 40px;
+}
+/* Header Section with Logo and Top-Right Text */
+
+.premium-tagline {
+  text-align: right;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #1B1C1D; /* Applying the mix color here */
+}
+
+.premium-tagline span {
+  color: #2563EB;
+}
+
+/* Grid Layout for Links */
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr;
+  gap: 60px; /* Exact Gap from Figma properties */
+  margin-bottom: 80px;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  color: #6B7280; /* Muted gray for headers */
+  font-weight: 500;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #001B3D; /* The black-blue mix */
+  font-size: 15px;
+  transition: opacity 0.2s;
+}
+
+.footer-col ul li a:hover {
+  opacity: 0.7;
+}
+
+/* Contact & Socials */
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.social-row {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+/* Bottom Bar */
+.footer-legal {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #E5E7EB;
+  padding-top: 30px;
+  font-size: 13px;
+  color: #6B7280;
+}
+
+.legal-links a {
+  margin-left: 24px;
+  color: #6B7280;
+  text-decoration: none;
+}
+

@@ -1,0 +1,68 @@
+/* General Section Styling */
+.resources-section {
+  padding: 80px 20px;
+  background-color: #FFFFFF;
+  font-family: 'Inter', sans-serif; /* Standard Figma UI font */
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Header Alignment */
+.header-group {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1A1C1E;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #667085;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Download List Styling */
+.download-list {
+  border-top: 1px solid #CFD1D4; /* Colors/Neutral/200 from Figma */
+}
+
+.download-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid #CFD1D4;
+}
+
+.file-name {
+  font-size: 16px;
+  color: #344054;
+  font-weight: 500;
+}
+
+.download-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #004EEB; /* Standard action blue */
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.download-link:hover {
+  opacity: 0.7;
+}
